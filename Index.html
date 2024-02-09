@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Owl Carousel Css CDN's -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- General External Css File(Stylesheet) -->
+    <link rel="stylesheet" href="css/Style.css" />
+
+    <!-- External Css File for Hero Section Carousel(Stylesheet) -->
+    <link rel="stylesheet" href="css/CarouselStyle.css" />
+
+    <!-- Title Logo Link Tag -->
+    <link rel="icon" href="./Images/illustration/Marg_Foundation_logo.jpg" />
+
+    <!-- AOS Animation CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Marg Foundation</title>
+  </head>
+
+  <body>
+<!------ HOME PAGE  ------->
+
+
+    <!-- Navigation Start -->
+
+    <section class="navbar1 p-2" id="navbar">
+      <nav class="">
+        <div class="wrapper container">
+          <div class="logo">
+            <a href="#">
+              <figure class="d-flex align-items-center">
+                <img
+                  height="70px"
+                  width="70px"
+                  class="img-fluid"
+                  src="./Images/illustration/logo2.png"
+                  alt=""
+                />
+                <figcaption class="ps-3">
+                  <h3 class="mb-0 fw-bold">Marg Foundation</h3>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <input type="radio" name="slider" id="menu-btn" />
+          <input type="radio" name="slider" id="close-btn" />
+          <ul class="nav-links index">
+            <label for="close-btn" class="btn close-btn">
+              <i class="fas fa-times"></i>
+            </label>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">About Us</a>
+              <input type="checkbox" id="showDrop" />
+              <label for="showDrop" class="mobile-item">About Us</label>
+              <ul class="drop-menu">
+                <li>
+                  <a href="#">Who We Are</a>
+                </li>
+                <li>
+                  <a href="#">Vision & Mission</a>
+                </li>
+                <li>
+                  <a href="#">Our Team </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Services</a>
+              <input type="checkbox" id="showMega" />
+              <label for="showMega" class="mobile-item">Services</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <p class="line_h">Our Work</p>
+                    <ul class="mega-links">
+                      <li>
+                        <a href="#">Gallery</a>
+                      </li>
+                      <li>
+                        <a href="#">Success Stories</a>
+                      </li>
+                      <li>
+                        <a href="#">Overview</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <ul class="mega-links">
+                      <li>
+                        <a href="#">Touching Lives</a>
+                      </li>
+                      <li>
+                        <a href="#">Impact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">News/Updates</a>
+              <input type="checkbox" id="showDrop" />
+              <label for="showDrop" class="mobile-item">Case Studies</label>
+              <ul class="drop-menu">
+                <li>
+                  <a href="#">Latest News</a>
+                </li>
+                <li>
+                  <a href="#">Blogs</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Donations</a>
+              <input type="checkbox" id="showDrop" />
+              <label for="showDrop" class="mobile-item">Donations</label>
+              <ul class="drop-menu">
+                <li>
+                  <a href="#">Why Donate</a>
+                </li>
+                <li>
+                  <a href="#">Donation Options</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn">
+            <i class="fa-solid fa-bars fs-1 text-white"></i>
+          </label>
+          <div class="chart_div">
+            <a href="#" class="donate_btn">Donate</a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Navigation Ends -->
+
+    <!-- Hero Section Carousel Start -->
+    <section class="container-fluid carousel_section p-0">
+      <div class="owl-carousel owl-theme position-relative">
+        <div class="item">
+          <div
+            class="Carousel_bg_img_1 d-flex justify-content-center align-items-center"
+          >
+            <div class="container" data-aos="fade-left">
+              <h2 class="pb-3 text-white fw-bolder">
+                Save lives, enable social protection and <br />
+                defeat poverty
+              </h2>
+              <a href="#" class="donate_btn">Donate Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div
+            class="Carousel_bg_img_2 d-flex justify-content-center align-items-center"
+          >
+            <div class="container">
+              <h2 class="pb-3 text-white fw-bolder">
+                Inviting
+                <span style="color: #151756" class="fs-2"
+                  >former CARE India members
+                </span>
+                to <br />
+                reconnect with fellow change-makers and <br />
+                amplify their impact beyond borders <br />
+                <span class="joi_n"
+                  >Join our esteemed <span>alumni network</span></span
+                >
+              </h2>
+              <a href="#" class="donate_btn">Know More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div
+            class="Carousel_bg_img_3 d-flex justify-content-center align-items-center"
+          >
+            <div class="container">
+              <h2 class="text-white fw-bolder">
+                Save children from severe malnutrition
+              </h2>
+              <h4 class="text-white pb-3">
+                India is home to one-third of the global total <br />
+                of stunted children under the age of five.
+              </h4>
+              <a href="#" class="donate_btn">Donate Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div
+            class="Carousel_bg_img_4 d-flex justify-content-center align-items-center"
+          >
+            <div class="container">
+              <h2 class="pb-3 text-white fw-bolder">
+                Providing marginalised <br />
+                communities a life of dignity
+              </h2>
+              <a href="#" class="donate_btn">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Carousel End -->
+
+    <div class="space_between" id="space">
+      <!-- Div for spacing between -->
+    </div>
+
+    <!-- Our Focus Arias Section Start -->
+
+    <section class="py-4 mb-5">
+      <div class="container">
+        <div class="text-center py-4">
+          <h2>Causes we are serving</h2>
+          <h3> - Our Focus Areas - </h3>
+        </div>
+
+        <div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="card">
+                  <div class="text-center p-1">
+                    <h5 class="card-title">Health</h5>
+                  </div>
+                  <img
+                    src="./Images/illustration/helth.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    
+                    <p class="card-text">
+                      Assisting in medical emergencies, reproductive, maternal,
+                      neonatal, child and adolescent healthcare..
+                    </p>
+                    <a href="#" class="btn donate_btn2">Know More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="card">
+                  <div class="text-center p-1">
+                    <h5 class="card-title">Education</h5>
+                  </div>
+                  <img
+                    src="./Images/illustration/education.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    
+                    <p class="card-text">
+                      Imparting 21st century skills like innovation, problem
+                      solving and leadership to adolescents..
+                    </p>
+                    <a href="#" class="btn donate_btn2">Know More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="card">
+                  <div class="text-center p-1">
+                    <h5 class="card-title">Livelihood</h5>
+                  </div>
+                  <img
+                    src="./Images/illustration/livehood.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    
+                    <p class="card-text">
+                      Developing a professional and entrepreneurial spirit among
+                      marginalised women and girls..
+                    </p>
+                    <a href="#" class="btn donate_btn2">Know More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="card">
+                  <div class="text-center p-1">
+                    <h5 class="card-title">Disaster Relief</h5>
+                  </div>
+                  <img
+                    src="./Images/illustration/disaster.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    
+                    <p class="card-text">
+                      Preparing communities for emergency mitigation, response
+                      and recovery Help Them..
+                    </p>
+                    <a href="#" class="btn donate_btn2">Know More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Focus Arias Section Ends -->
+
+    <!-- Who We Are Section Start -->
+
+    <section class="py-5 mt-5" style="background-color: #f5f8f8">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="pe-3 py-3" data-aos="zoom-in"  data-aos-duration="1500">
+              <img
+                class="img-fluid"
+                src="./Images/illustration/about.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="ps-3 py-3" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+              <h1>Who we are?</h1>
+              <p>
+                <strong
+                  >Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis
+                  aliquet pulvinar ante tempor etiam lacus eros</strong
+                >
+              </p>
+              <p class="lh-lg pb-3">
+                The legal definition of a charitable organization (and of
+                charity) varies between countries and in some instances regions
+                of the country. The regulation, the tax treatment, and the way
+                in which charity law affects charitable organizations also vary.
+              </p>
+              <a href="#" class="donate_btn2">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Sre Section Ends -->
+
+
+    <!-- We serve for peoples Section Start -->
+
+    <section class="py-5 bg-img1">
+      <div class="container">
+        <div class="text-center text-white py-5">
+          <h2>We serve for peoples</h2>
+          <h5>Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet
+            pulvinar ante.</h5>
+        </div>
+        <div class="row text-white justify-content-center align-items-center">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div>
+              <figure class="text-center">
+                <i class="fs-1 fa-solid fa-apple-whole"></i>
+                <figcaption class="py-3">
+                  <h3>
+                    Pure Food & Water</h3>
+                    <p class="pb-3">Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
+                    <a href="#" class="donate_btn2">Donate Now</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <figure class="text-center">
+              <i class="fs-1 fa-solid fa-house-chimney-medical"></i>
+          <figcaption class="py-3">
+                <h3>Health & Medicine</h3>
+                  <p class="pb-3">Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
+                  <a href="#" class="donate_btn2">Donate Now</a>
+
+              </figcaption>
+            </figure>
+          </div>
+          
+          <div class="col-12 col-md-4 col-lg-4">
+            <figure class="text-center">
+              <i class=" fs-1 fa-solid fa-user-graduate"></i>
+                <figcaption class="py-3">
+                <h3>
+                  Education</h3>
+                  <p class="pb-3">Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
+                  <a href="#" class="donate_btn2">Donate Now</a>
+
+              </figcaption>
+            </figure>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- We serve for peoples Section Ends -->
+
+    <!-- Do You Care Our Children? Section Start -->
+
+    <section>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-md-12 col-lg-6">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
+              <img class="img-fluid" src="./Images/illustration/chil.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="p-4"  data-aos="fade-down"
+            data-aos-anchor-placement="top-center">
+              <p><strong>WELCOME TO MARG FOUNDATION NON-PROFIT CHARITY</strong></p>
+              <h1>Do You Care Our Children?</h1>
+              <p class="lh-lg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </p>
+              <p class="pb-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="donate_btn2">Be a Volunteer</a>
+
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Do You Care Our Children? Section Ends -->
+
+
+    <!-- They Need Your Help Section Start -->
+
+    <section class="py-5 bg-img2 mt-5">
+      <div class=" container p-5  d-flex justify-content-end"  >
+        <div class="bg-white rounded-4 p-5 w-50" data-aos="zoom-in-down" data-aos-duration="800">
+          <h1 class="py-3">They Need Your Help</h1>
+          <p class="py-2">Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet pulvinar ante tempor etiam lacus eros</p>
+          <p class="pb-3">Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet pulvinar ante tempor etiam lacus eros
+          </p>
+          <a href="#" class="donate_btn2">Donate in a Case</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- They Need Your Help Section Ends -->
+
+
+    <!-- Footer Section Start -->
+
+    <section class="py-5" style="background-color: #040637;">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="mt-3" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000" >
+             <div>
+              <img src="./Images/illustration/images.jpg" alt="">
+             </div> 
+             <blockquote class="py-2 text-white mb-0">
+              <p class="mb-0"> <i> "It's not how much we give, but how much love we put into giving." </i></p>
+              <pre>       — Mother Teresa</pre>
+            </blockquote>
+            <div>
+              <a href="#" class="donate_btn2">DONATE <i class= "ps-2 fa-regular fa-heart"></i></a>
+            </div>
+            <ul class="list-unstyled d-flex justify-content-start pt-4 align-items-center" >
+              <li class="pe-4"><a class="text-decoration-none text-light" href="#"><i class="fs-5 fa-brands fa-twitter"></i></a></li>
+              <li class="pe-4"><a class="text-decoration-none text-light" href="#"><i class="fs-5 fa-brands fa-instagram"></i></a></li>
+              <li class="pe-4"><a class="text-decoration-none text-light" href="#"><i class="fs-5 fa-brands fa-facebook"></i></a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="mt-3" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000" >
+              <h5 class="text-white pb-3">Navigation</h5>
+              <ul class="list-unstyled">
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Home</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">About Us</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Services</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">News/Updates</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Donations</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="mt-3" data-aos="fade-up" 
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000" >
+              <h5 class="text-white pb-3">Services</h5>
+              <ul class="list-unstyled">
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Gallery</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Success Stories</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Overview</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Touching Lives</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light fo_hove" href="#">Impact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="mt-3" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+              <h5 class="text-white pb-3">Contact Us</h5>
+              <ul class="list-unstyled">
+                <li class="pb-2"><a class="text-decoration-none text-light" href="#"><i class="fa-solid fa-phone pe-2"></i>+91 9856765654</a></li>
+                <li class="pb-2"><a class="text-decoration-none text-light" href="#"><i class="fa-solid fa-envelope pe-2"></i>marg@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Ends -->
+
+    <!-- Copyright Footer line -->
+
+    <section style="background-color: #11123d;">
+      <div class="text-light text-center py-3">
+        <strong>Copyright © 2024 Marg Foundation. All Rights Reserved</strong>
+      </div>
+    </section>
+
+    <!-- Copyright Footer line -->
+
+    <!-- up Arrow -->
+
+    <div class="up_arrow">
+      <a href="#" class="text-decoration-none"><i class=" fs-3 text-light fa-solid fa-cloud-arrow-up"></i></a>
+    </div>
+
+    <!-- up Arrow -->
+
+
+
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- General External Script File -->
+    <script src="JavaScript/Script.js"></script>
+
+    <!-- Bootstrap Script Tag -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Jquery Script CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- External Script File for Carousel -->
+    <script src="JavaScript/CarouselScript.js"></script>
+
+    <!-- AOS Script CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
