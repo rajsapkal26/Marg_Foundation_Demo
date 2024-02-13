@@ -93,7 +93,7 @@ nav .wrapper{
   list-style: none;
 }
 .nav-links li a{
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -166,7 +166,7 @@ nav .wrapper{
 .row .mega-links li a{
   padding: 0px;
   padding: 0 20px;
-  color: black;
+  color: white;
   font-size: 16px;
   display: block;
 }
@@ -351,6 +351,7 @@ nav .wrapper{
     padding: 0 20px;
     display: block;
     font-size: 20px;
+    color: black;
   }
   .nav-links .drop-menu{
     position: static;
@@ -421,6 +422,12 @@ nav .wrapper{
   }
   .row .mega-links li{
     margin: 0;
+  }
+
+  .row .mega-links li a{
+
+    color: black;
+
   }
  
 }
