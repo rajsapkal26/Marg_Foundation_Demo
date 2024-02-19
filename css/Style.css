@@ -222,10 +222,32 @@ nav .wrapper{
 .donate_btn2:hover{
   background-color: #151756;
   color: white;
- 
   font-weight: 500;
  
 }
+
+.social_handle{
+  color: #151756;
+  transition: all ease 0.4s;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+
+ 
+}
+
+.social_handle:hover{
+  color: white;
+  transform: scale(1.2);
+  background-color: #151756;
+  border: 2px solid #151756;
+
+
+ 
+}
+
+
 
 .card{
   border: 8px solid rgb(209, 198, 198);
